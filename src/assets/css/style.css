@@ -1,0 +1,16 @@
+.main-content {
+    padding-top: 66px;
+}
+
+.row.gap-sm > div[class^="col"] {
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+
+.row.gap-sm > div[class^="col"]:first-child {
+    padding-left: 15px !important;
+}
+
+.row.gap-sm > div[class^="col"]:last-child {
+    padding-right: 15px !important;
+}

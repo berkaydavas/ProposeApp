@@ -1,0 +1,113 @@
+#proposeTable {
+    table-layout: fixed;
+}
+
+#proposeTable .key {
+    width: 5%;
+}
+
+#proposeTable .titleDescription {
+    width: calc(100% - 5%);
+}
+
+#proposeTable .brand {
+    width: 10%;
+}
+
+#proposeTable .model {
+    width: 12%;
+}
+
+#proposeTable .model.liteWidth {
+    width: 10%;
+}
+
+#proposeTable .description {
+    width: 44%;
+}
+
+#proposeTable .description.liteWidth {
+    width: 15%;
+}
+
+#proposeTable .qty {
+    width: 4%;
+}
+
+#proposeTable .unit {
+    width: 6%;
+}
+
+#proposeTable .unitPrice {
+    width: 8%;
+}
+
+#proposeTable .totalPrice {
+    width: 8%;
+}
+
+#proposeTable .productPrice {
+    width: 6%;
+}
+
+#proposeTable .discountRate1 {
+    width: 7%;
+}
+
+#proposeTable .discountPrice1 {
+    width: 7%;
+}
+
+#proposeTable .discountPrice1.liteWidth {
+    width: 5%;
+}
+
+#proposeTable .discountRate2 {
+    width: 7%;
+}
+
+#proposeTable .discountPrice2 {
+    width: 7%;
+}
+
+#proposeTable .discountPrice2.liteWidth {
+    width: 5%;
+}
+
+#proposeTable .buttons {
+    width: 2%;
+}
+
+#proposeTable table {
+    margin-left: -1px;
+    margin-right: -1px;
+    width: calc(100% + 2px);
+    border-bottom: 3px solid #000;
+    table-layout: fixed;
+}
+
+#proposeTable table thead th :is(input, select, textarea) {
+    font-weight: 700;
+}
+
+#proposeTable .mainTitleTable > thead {
+    background-color: rgba(217, 217, 217, .6);
+}
+
+#proposeTable .subTitleTable > thead {
+    background-color: rgba(180, 198, 231, .6);
+}
+
+#proposeTable :is(.catTitleTable, .catLineTable) > thead th :is(input, select, textarea) {
+    color: red;
+}
+
+#proposeTable td :is(input, select, textarea):not(:disabled) {
+    background-color: rgba(255, 255, 255, .05);
+}
+
+#proposeTable td input[type=number]::-webkit-outer-spin-button,
+#proposeTable td input[type=number]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
